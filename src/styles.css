@@ -332,6 +332,48 @@ textarea {
   margin-top: 4rem;
 }
 
+.resume-facts {
+  display: block;
+  margin-top: 4rem;
+}
+
+.fact-block h3 {
+  font-size: 1.35rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.fact-block {
+  width: 100%;
+}
+
+.fact-card {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+}
+
+.fact-card strong {
+  color: var(--text-primary);
+}
+
+.fact-card p,
+.fact-card span,
+.fact-card small {
+  color: var(--text-secondary);
+}
+
+.fact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 1.75rem;
+}
+
 .skills-title {
   text-align: center;
   font-size: 1.75rem;
@@ -382,7 +424,7 @@ textarea {
 
 .timeline {
   position: relative;
-  max-width: 800px;
+  max-width: 1080px;
   margin: 2rem auto 0;
   padding: 2rem 0;
 }
@@ -401,19 +443,19 @@ textarea {
 .timeline-item {
   position: relative;
   width: 50%;
-  padding: 1rem 2rem;
+  padding: 1rem 1.25rem;
   margin-bottom: 2rem;
 }
 
 .timeline-item:nth-child(odd) {
   left: 0;
-  padding-right: 4rem;
+  padding-right: 3rem;
   text-align: right;
 }
 
 .timeline-item:nth-child(even) {
   left: 50%;
-  padding-left: 4rem;
+  padding-left: 3rem;
 }
 
 .timeline-dot {
@@ -473,6 +515,27 @@ textarea {
 .timeline-description {
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+.timeline-highlights {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.timeline-highlights li + li {
+  margin-top: 0.55rem;
+}
+
+.timeline-item:nth-child(odd) .timeline-highlights {
+  direction: rtl;
+  padding-left: 0;
+  padding-right: 1.2rem;
+}
+
+.timeline-item:nth-child(odd) .timeline-highlights li {
+  direction: ltr;
+  text-align: right;
 }
 
 .portfolio-grid {
@@ -620,10 +683,8 @@ textarea {
 }
 
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  margin-top: 3rem;
+  max-width: 900px;
+  margin: 3rem auto 0;
 }
 
 .contact-info h3 {
@@ -639,8 +700,8 @@ textarea {
 }
 
 .contact-methods {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -682,48 +743,6 @@ textarea {
 
 .contact-method p {
   margin: 0;
-}
-
-.contact-form {
-  background: var(--bg-secondary);
-  padding: 2rem;
-  border-radius: 1rem;
-  border: 1px solid var(--border-color);
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid var(--border-color);
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: var(--glow);
-}
-
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
 }
 
 .footer {
@@ -810,8 +829,8 @@ textarea {
   }
 
   .about-content,
-  .contact-content {
-    grid-template-columns: 1fr;
+  .contact-content,
+  .resume-facts {
     gap: 2rem;
   }
 
@@ -821,6 +840,10 @@ textarea {
 
   .skills-grid,
   .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-methods {
     grid-template-columns: 1fr;
   }
 
@@ -839,6 +862,16 @@ textarea {
 
   .timeline-dot {
     left: 0 !important;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-highlights {
+    direction: ltr;
+    padding-left: 1.2rem;
+    padding-right: 0;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-highlights li {
+    text-align: left;
   }
 
   .cta-buttons,

@@ -7,16 +7,16 @@ export const navigation = [
 ];
 
 export const hero = {
-  title: "Flutter Developer",
-  subtitle: "Cross-Platform Mobile App Specialist",
+  title: "Mobile Application Developer",
+  subtitle: "React Native Engineer for Cross-Platform Mobile Apps",
   description:
-    "Passionate about creating beautiful, performant mobile applications that work seamlessly across iOS and Android platforms. Specialized in Flutter development with expertise in modern app architecture and user experience design.",
+    "Results-driven mobile application developer with 5+ years of experience building modern iOS and Android products. I focus on React Native, scalable architecture, native integrations, and polished user experiences for real-world business applications.",
   stats: [
-    { value: "20", label: "Applications Created" },
-    { value: "12", label: "Live Applications" },
+    { value: "5+", label: "Years Experience" },
+    { value: "10+", label: "Key Projects" },
     { value: "2", label: "Platforms" },
-    { value: "6", label: "Industry Sectors" },
-    { value: "100%", label: "Client Satisfaction" },
+    { value: "18+", label: "Core Technologies" },
+    // { value: "2", label: "Product Companies" },
   ],
   ctas: [
     {
@@ -32,8 +32,8 @@ export const hero = {
       iconClass: "fas fa-envelope",
     },
     {
-      label: "Download CV",
-      href: "cv.pdf",
+      label: "Download Resume",
+      href: "/umer-nawaz-resume.pdf",
       variant: "btn-secondary",
       iconClass: "fas fa-download",
       download: true,
@@ -44,360 +44,249 @@ export const hero = {
 export const about = {
   title: "About Me",
   subtitle: "A snapshot of my skills, passion, and professional journey",
-  heading: "Hello, I'm Gohar Zafar.",
-  imageAlt: "Gohar Zafar",
+  heading: "Hello, I'm Umer Nawaz.",
+  imageAlt: "Umer Nawaz",
   paragraphs: [
-    "I'm a dedicated and results-driven Flutter developer with a deep passion for building cross-platform mobile applications that are both beautiful and highly functional. My journey in software development is fueled by a desire to solve complex problems and create intuitive, user-centric experiences.",
-    "With a focus on clean, scalable code and modern architecture patterns like BLoC and Riverpod, I deliver applications that not only meet technical requirements but also provide a seamless and enjoyable experience for the end-user. I'm a lifelong learner, always eager to explore the latest advancements in the Flutter ecosystem and mobile development best practices.",
-    "My collaborative spirit and strong communication skills enable me to work effectively in team environments, ensuring projects are delivered on time and to the highest standard of quality.",
+    "I am a mobile application developer focused on building fast, scalable, and production-ready cross-platform apps with React Native. My work spans fintech, IoT, warehouse systems, telehealth, HRMS, POS, and subscription-based products.",
+    "I enjoy solving product and engineering problems through clean architecture, thoughtful state management, native module integration, and strong collaboration with design, backend, QA, and product teams.",
+    "Across my roles, I have delivered apps with real-time tracking, push notifications, deep linking, biometric authentication, offline sync, WebRTC, Socket.io, Firebase, and Turbo Modules for Android and iOS.",
   ],
   competencies: [
-    { name: "Flutter Framework", iconClass: "fas fa-mobile-screen-button" },
-    { name: "Dart Programming", iconClass: "fas fa-code" },
-    { name: "State Management (BLoC/Riverpod)", iconClass: "fas fa-diagram-project" },
-    { name: "Firebase & Firestore", iconClass: "fas fa-fire" },
-    { name: "REST APIs & GraphQL", iconClass: "fas fa-network-wired" },
-    { name: "Real-time Applications", iconClass: "fas fa-chart-line" },
-    { name: "UI/UX Implementation", iconClass: "fas fa-palette" },
-    { name: "CI/CD & DevOps", iconClass: "fas fa-gears" },
+    { name: "React Native", iconClass: "fas fa-mobile-screen-button" },
+    { name: "React JS", iconClass: "fab fa-react" },
+    { name: "JavaScript", iconClass: "fas fa-code" },
+    { name: "TypeScript", iconClass: "fas fa-file-code" },
+    { name: "Redux / Redux-Saga", iconClass: "fas fa-diagram-project" },
+    { name: "Zustand / Context API", iconClass: "fas fa-layer-group" },
+    { name: "Firebase", iconClass: "fas fa-fire" },
+    { name: "Turbo Modules", iconClass: "fas fa-plug-circle-bolt" },
+    { name: "React Navigation", iconClass: "fas fa-route" },
+    { name: "Deep Linking", iconClass: "fas fa-link" },
+    { name: "Push Notifications", iconClass: "fas fa-bell" },
+    { name: "REST APIs / GraphQL", iconClass: "fas fa-network-wired" },
+    { name: "Socket.io / WebRTC", iconClass: "fas fa-video" },
+    { name: "In-App Purchases", iconClass: "fas fa-cart-shopping" },
+    { name: "Git", iconClass: "fab fa-git-alt" },
+  ],
+  education: [
+    {
+      degree: "M.Sc Computer Science",
+      school: "Punjab University College of Information Technology, Lahore",
+      years: "10/2018 - 08/2020",
+      detail: "CGPA: 2.92",
+    },
+    {
+      degree: "B.Sc Computer Science",
+      school: "Islamia University Bahawalpur",
+      years: "08/2014 - 08/2016",
+      detail: "Sadiqabad",
+    },
   ],
 };
 
 export const experience = [
   {
-    years: "2025 - Present",
-    role: "Senior Flutter Developer",
-    company: "ZRRTech Solutions Pvt Ltd.",
+    years: "03/2025 - Present",
+    role: "Sr. Software Engineer",
+    company: "TEKHQS",
+    location: "Lahore",
     description:
-      "Leading the development of complex, cross-platform mobile applications for enterprise clients. Architecting scalable solutions, mentoring junior developers, and implementing advanced features like real-time data synchronization and complex animations.",
+      "Leading React Native delivery for fintech and IoT products, with a focus on native integrations, scalable state architecture, and secure mobile experiences.",
+    highlights: [
+      "Built MyDriverBook, a driver tracking application integrated with Jimi ELD devices for real-time activity monitoring and HOS compliance.",
+      "Bridged native Jimi SDK functionality from Android and iOS into React Native through Turbo Modules for seamless cross-platform support.",
+      "Worked on a blockchain wallet integration that enables secure cryptocurrency sending and receiving across a blockchain network.",
+      "Implemented Zustand with REST APIs and Firebase to create a lightweight global state architecture with real-time synchronization.",
+      "Built secure financial-app authentication flows including biometric login and collaborated closely with product, design, and backend teams.",
+    ],
   },
   {
-    years: "2024 - 2025",
-    role: "Mid-Level Flutter Developer",
-    company: "Blue World City",
+    years: "12/2020 - 03/2025",
+    role: "Software Engineer",
+    company: "Techverx",
+    location: "Lahore",
     description:
-      "Developed and maintained several e-commerce and logistics applications using Flutter. Collaborated with UI/UX designers to translate wireframes into high-quality code and integrated with various third-party APIs for payments and analytics.",
-  },
-  {
-    years: "2024 - 2025",
-    role: "Remote Flutter Developer",
-    company: "Qodix Labs Pvt Ltd.",
-    description:
-      "Developed and maintained several e-commerce and logistics applications using Flutter. Collaborated with UI/UX designers to translate wireframes into high-quality code and integrated with various third-party APIs for payments and analytics.",
-  },
-  {
-    years: "2023 - 2024",
-    role: "Junior Android Developer",
-    company: "Vitalblaze Pvt Ltd.",
-    location: "UK Based",
-    description:
-      "Gained foundational experience in mobile development, working on various small-scale projects. Assisted in bug fixing, feature implementation, and contributed to the full software development lifecycle.",
-  },
-  {
-    years: "2021 - 2023",
-    role: "Junior Android Developer",
-    company: "Vaspert Tech Pvt Ltd.",
-    description:
-      "Gained foundational experience in mobile development, working on various small-scale projects. Assisted in bug fixing, feature implementation, and contributed to the full software development lifecycle.",
+      "Built and scaled production React Native applications across multiple domains, delivering polished UX, stable integrations, and maintainable mobile codebases.",
+    highlights: [
+      "Designed and developed cross-platform mobile applications with responsive UI, native-like behavior, and consistent experiences across iOS and Android.",
+      "Integrated REST APIs and backend services with strong handling for async data flows, caching, error states, and optimistic UI updates.",
+      "Implemented product-critical features including navigation systems, push notifications, deep linking, analytics, and real-time communication.",
+      "Worked in Agile and Scrum teams with design, QA, backend, and product stakeholders while maintaining strong ownership and delivery discipline.",
+      "Shipped solutions across warehouse management, telehealth, HRMS, POS, music streaming, training, crypto, and 360 media products.",
+    ],
   },
 ];
 
 export const portfolioProjects = [
   {
-    title: "TradeMe AE",
-    category: "Auction & Bidding Platform",
+    title: "MyDriverBook",
+    category: "Driver Tracking & ELD Integration",
     description:
-      "A comprehensive UAE-based auction and bidding platform that enables users to participate in live auctions, place real-time bids, and manage their trading activities with advanced security features and seamless payment integration.",
+      "Cross-platform React Native app for driver activity, trip data, and compliance workflows with Jimi ELD device integration and Turbo Module bridges for Android and iOS.",
     tags: [
-      "Live Bidding",
+      "React Native",
+      "Turbo Modules",
+      "Jimi ELD",
+      "Real-time Tracking",
+      "Compliance",
+    ],
+    badge: "MDB",
+    accent: "accent-blue",
+  },
+  {
+    title: "Magic WMS",
+    category: "Warehouse Management System",
+    description:
+      "Mobile warehouse solution for inbound and outbound operations with dynamic forms, real-time tracking, and API-driven inventory, shipment, and order synchronization.",
+    tags: [
+      "Warehouse Tracking",
+      "Dynamic Forms",
+      "Inventory APIs",
+      "Order Processing",
+    ],
+    badge: "WMS",
+    accent: "accent-emerald",
+  },
+  {
+    title: "Wellness Checker",
+    category: "Wellness & Health Tracking",
+    description:
+      "React Native application for wellness assessments, health check workflows, and backend-powered synchronization for Android and iOS users.",
+    tags: [
+      "Health Tracking",
+      "Assessments",
+      "API Integration",
+      "Cross-Platform",
+    ],
+    iconClass: "fas fa-heart-pulse",
+  },
+  {
+    title: "Crootive",
+    category: "HRMS & Attendance",
+    description:
+      "HRMS mobile app with attendance, check-in/check-out, break tracking, employee request forms, and role-based manager approval workflows with real-time status updates.",
+    tags: [
+      "HRMS",
+      "Attendance",
+      "Role-Based Access",
+      "Request Forms",
+      "REST APIs",
+    ],
+    badge: "HR",
+    accent: "accent-violet",
+  },
+  {
+    title: "Komiti",
+    category: "Group Savings & Crypto Payouts",
+    description:
+      "Savings-circle application with weekly and monthly payout cycles, group contributions, MetaMask wallet integration, and real-time group activity updates.",
+    tags: [
+      "MetaMask",
+      "Crypto Wallet",
+      "Group Contributions",
       "Real-time Updates",
-      "Secure Payments",
-      "User Authentication",
+    ],
+    iconClass: "fas fa-coins",
+  },
+  {
+    title: "Friday POS",
+    category: "Point of Sale System",
+    description:
+      "React Native POS system for fine dining and takeaway operations with offline LAN connectivity, online-offline synchronization, and efficient order workflows.",
+    tags: [
+      "POS",
+      "Offline Mode",
+      "LAN Sync",
+      "Inventory Sync",
+      "Order Management",
+    ],
+    badge: "POS",
+    accent: "accent-gold",
+  },
+  {
+    title: "The Pusic",
+    category: "Music Streaming Platform",
+    description:
+      "Cross-platform music streaming application with YouTube integration, playlists, subscriptions, scheduled playback automation, and prayer-time pause and play controls.",
+    tags: ["Streaming", "YouTube Integration", "Subscriptions", "Scheduling"],
+    iconClass: "fas fa-music",
+  },
+  {
+    title: "Quure",
+    category: "Telehealth & EMR Platform",
+    description:
+      "Telemedicine application with EMR workflows, real-time Socket.io chat, file attachments, video consultations, and targeted push notifications via Pusher Beams.",
+    tags: [
+      "Telehealth",
+      "EMR",
+      "Socket.io",
+      "Video Calls",
       "Push Notifications",
     ],
-    badge: "TM",
-    accent: "accent-blue",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.trademe.ae&hl=en",
-        iconClass: "fab fa-google-play",
-      },
-      {
-        label: "App Store",
-        href: "https://apps.apple.com/pk/app/trademe-ae/id6740152535",
-        iconClass: "fab fa-apple",
-      },
-    ],
-  },
-  {
-    title: "Khilafat Cola",
-    category: "Beverages & Logistics",
-    description:
-      "Enterprise-grade beverages distribution application featuring 6 specialized modules for comprehensive logistics management, inventory tracking, sales analytics, and distribution network optimization for beverage companies.",
-    tags: [
-      "6 Modules System",
-      "Inventory Management",
-      "Distribution Tracking",
-      "Sales Analytics",
-      "Route Optimization",
-    ],
-    badge: "KC",
-    accent: "accent-emerald",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.khilafat.cola&hl=en",
-        iconClass: "fab fa-google-play",
-      },
-    ],
-  },
-  {
-    title: "Unwind By Umaans",
-    category: "E-Commerce Platform",
-    description:
-      "Modern e-commerce platform providing seamless shopping experience with intuitive product browsing, advanced search functionality, secure checkout process, and personalized recommendations for enhanced customer engagement.",
-    tags: [
-      "Product Catalog",
-      "Secure Checkout",
-      "Order Tracking",
-      "Wishlist",
-      "Payment Gateway",
-    ],
-    iconClass: "fas fa-shopping-bag",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.unwindby.umaans.unwind&hl=en",
-        iconClass: "fab fa-google-play",
-      },
-    ],
-  },
-  {
-    title: "Habbit Planner",
-    category: "Productivity & Lifestyle",
-    description:
-      "Smart habit tracking and daily routine management application that helps users build positive habits, track progress with detailed analytics, set goals, and maintain consistent daily schedules with intelligent reminders.",
-    tags: [
-      "Habit Tracking",
-      "Progress Analytics",
-      "Smart Reminders",
-      "Goal Setting",
-      "Streak Counter",
-    ],
-    iconClass: "fas fa-tasks",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.hds.habittracker.routineplanner&hl=en",
-        iconClass: "fab fa-google-play",
-      },
-    ],
-  },
-  {
-    title: "Cut App",
-    category: "Productivity & Lifestyle",
-    description:
-      "Enabling the users to interact vendors using AGORA SDK Audio and Video Call.",
-    tags: ["Agora SDK", "Audio Call", "Video Call", "Services Application", "In-App Chat"],
-    iconClass: "fas fa-scissors",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.app.cut6tium",
-        iconClass: "fab fa-google-play",
-      },
-    ],
-  },
-  {
-    title: "Banyan Home",
-    category: "Home & Lifestyle",
-    description:
-      "Cross-platform home management application available on both Android and iOS, providing comprehensive tools for modern home organization, lifestyle management, and smart home integration with intuitive user interface.",
-    tags: [
-      "Cross-Platform",
-      "Home Management",
-      "Organization Tools",
-      "Lifestyle Tracking",
-      "Smart Integration",
-    ],
-    iconClass: "fas fa-home",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.banyanhome.app&hl=en",
-        iconClass: "fab fa-google-play",
-      },
-      {
-        label: "App Store",
-        href: "https://apps.apple.com/us/app/banyan-home/id6743860965",
-        iconClass: "fab fa-apple",
-      },
-    ],
-  },
-  {
-    title: "MyLink Muslim Marriage App",
-    category: "Social Networking & Matchmaking",
-    description:
-      "Halal Muslim marriage and matchmaking platform designed for serious relationships based on Islamic values. Features advanced matchmaking algorithms, profile verification, secure messaging, and video calling for meaningful connections.",
-    tags: [
-      "Halal Matchmaking",
-      "Profile Verification",
-      "Video Calling",
-      "Secure Messaging",
-      "Advanced Search",
-      "Truth or Dare Games",
-    ],
-    badge: "ML",
+    badge: "EMR",
     accent: "accent-pink",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.my.link.app",
-        iconClass: "fab fa-google-play",
-      },
-      {
-        label: "App Store",
-        href: "https://apps.apple.com/app/mylink-muslim-marriage-app/id6742732774",
-        iconClass: "fab fa-apple",
-      },
-    ],
   },
   {
-    title: "Blue World City",
-    category: "Real Estate & Property Management",
+    title: "Elevate PRO5+",
+    category: "Athletic Training Platform",
     description:
-      "Official BWC mobile application for managing user accounts, payments, and property-related services. Provides comprehensive real estate management features with secure payment processing and account management capabilities.",
+      "Training platform for baseball and softball athletes featuring premium subscriptions, tutorial video access, live virtual coaching sessions, and real-time chat.",
     tags: [
-      "Account Management",
-      "Payment Processing",
-      "Property Services",
-      "User Authentication",
-      "Real-time Updates",
+      "Subscriptions",
+      "Video Training",
+      "Live Coaching",
+      "Real-time Chat",
     ],
-    badge: "BWC",
+    badge: "PRO",
     accent: "accent-cobalt",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.bwc.mobile.members",
-        iconClass: "fab fa-google-play",
-      },
-    ],
   },
   {
-    title: "BWC Digital Wallet",
-    category: "Financial Management & Ledger",
+    title: "VPIX Motor Street 360",
+    category: "360 Vehicle Showcase",
     description:
-      "Customer-specific digital wallet application for managing dealer ledgers, financial transactions, and verification receipts. Streamlines dealer financial management with secure transaction tracking and comprehensive reporting.",
+      "Interactive app for capturing, publishing, and exploring 360-degree vehicle views with a video-to-panorama pipeline and user-friendly publishing flows.",
     tags: [
-      "Dealer Ledger",
-      "Financial Tracking",
-      "Verification Receipts",
-      "Transaction History",
-      "Secure Payments",
+      "360 Views",
+      "Media Processing",
+      "Publishing Workflow",
+      "Interactive Browsing",
     ],
-    iconClass: "fas fa-wallet",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.wallet.bwc",
-        iconClass: "fab fa-google-play",
-      },
-    ],
-  },
-  {
-    title: "FSCS School Management",
-    category: "Educational Management System",
-    description:
-      "Comprehensive school management application by BWC designed to streamline educational operations. Features student management, academic tracking, administrative tools, and communication systems for educational institutions.",
-    tags: [
-      "Student Management",
-      "Academic Tracking",
-      "Administrative Tools",
-      "Communication System",
-      "Performance Analytics",
-    ],
-    badge: "FS",
-    accent: "accent-violet",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.forces.school",
-        iconClass: "fab fa-google-play",
-      },
-    ],
-  },
-  {
-    title: "FGC College Management",
-    category: "Higher Education Management",
-    description:
-      "Advanced college management application for FGC (Forces College) providing comprehensive tools for higher education administration, student services, academic management, and institutional operations.",
-    tags: [
-      "College Administration",
-      "Student Services",
-      "Academic Management",
-      "Institutional Operations",
-      "Higher Education Tools",
-    ],
-    badge: "FGC",
-    accent: "accent-gold",
-    links: [
-      {
-        label: "Google Play",
-        href: "https://play.google.com/store/apps/details?id=com.forces.college",
-        iconClass: "fab fa-google-play",
-      },
-    ],
+    iconClass: "fas fa-car-side",
   },
 ];
 
 export const contact = {
   title: "Let's Work Together",
   subtitle:
-    "Ready to bring your mobile app idea to life? Let's discuss your project and create something amazing together.",
+    "If you need a React Native engineer for cross-platform apps, native integrations, or production mobile features, let's connect.",
   heading: "Get In Touch",
   description:
-    "I'm always open to discussing new opportunities, interesting projects, and potential collaborations. Whether you need a complete mobile app solution or consulting on Flutter development, I'm here to help.",
+    "I'm open to discussing mobile engineering roles, freelance work, and product collaborations. I can help with React Native app development, architecture, native SDK integrations, real-time features, and polished iOS and Android delivery.",
   methods: [
     {
       label: "Email",
-      value: "gohar.zafar123@gmail.com",
-      href: "mailto:gohar.zafar123@gmail.com",
+      value: "warraichumer95@gmail.com",
+      href: "mailto:warraichumer95@gmail.com",
       iconClass: "fas fa-envelope",
     },
     {
       label: "Phone",
-      value: "+923081865705",
-      href: "tel:+923081865705",
+      value: "+92 304 4100995",
+      href: "tel:+923044100995",
       iconClass: "fas fa-phone",
     },
     {
       label: "LinkedIn",
-      value: "Connect with me",
-      href: "https://www.linkedin.com/in/gohardev95/",
+      value: "Let's get connected",
+      href: "https://linkedin.com/in/umer-warraich-aab0891b1",
       iconClass: "fab fa-linkedin",
     },
     {
-      label: "GitHub",
-      value: "View my code",
-      href: "https://github.com/gohar95?tab=repositories",
-      iconClass: "fab fa-github",
+      label: "Location",
+      value: "Lahore, Pakistan",
+      href: "#contact",
+      iconClass: "fas fa-location-dot",
     },
   ],
-  form: {
-    fields: [
-      { label: "Full Name", name: "name", type: "text" },
-      { label: "Email Address", name: "email", type: "email" },
-      { label: "Subject", name: "subject", type: "text" },
-    ],
-    messageField: {
-      label: "Message",
-      name: "message",
-      placeholder: "Brainstorm your ideas...",
-    },
-    submitLabel: "Send Message",
-    submitIconClass: "fas fa-paper-plane",
-  },
-  closing: "Looking Forward to seeing you",
+  closing: "Thanks for visiting my portfolio.",
 };

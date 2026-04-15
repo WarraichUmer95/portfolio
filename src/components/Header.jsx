@@ -38,7 +38,7 @@ function Header({ links }) {
     <nav className={`navbar${isScrolled ? " scrolled" : ""}`} id="navbar">
       <div className="nav-container">
         <a href="#home" className="logo" onClick={handleNavigate}>
-          Gohar Zafar
+          Umer Nawaz
         </a>
 
         <ul className={`nav-menu${isOpen ? " active" : ""}`} id="nav-menu">

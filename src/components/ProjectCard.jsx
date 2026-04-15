@@ -29,20 +29,22 @@ function ProjectCard({ project }) {
           ))}
         </div>
 
-        <div className="card-links">
-          {project.links.map((link) => (
-            <a
-              key={`${project.title}-${link.label}`}
-              href={link.href}
-              className="store-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className={link.iconClass} aria-hidden="true" />
-              {link.label}
-            </a>
-          ))}
-        </div>
+        {project.links?.length ? (
+          <div className="card-links">
+            {project.links.map((link) => (
+              <a
+                key={`${project.title}-${link.label}`}
+                href={link.href}
+                className="store-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className={link.iconClass} aria-hidden="true" />
+                {link.label}
+              </a>
+            ))}
+          </div>
+        ) : null}
       </div>
     </div>
   );

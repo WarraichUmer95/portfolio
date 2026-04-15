@@ -8,6 +8,13 @@ function ExperienceCard({ item }) {
         <p className="timeline-company">{item.company}</p>
         {item.location ? <p className="timeline-company">{item.location}</p> : null}
         <p className="timeline-description">{item.description}</p>
+        {item.highlights?.length ? (
+          <ul className="timeline-highlights">
+            {item.highlights.map((highlight) => (
+              <li key={highlight}>{highlight}</li>
+            ))}
+          </ul>
+        ) : null}
       </div>
     </div>
   );

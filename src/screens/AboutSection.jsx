@@ -10,7 +10,11 @@ function AboutSection({ data }) {
 
         <div className="about-content">
           <div className="about-image-container">
-            <img src={profilePortrait} alt={data.imageAlt} className="profile-picture" />
+            <img
+              src={profilePortrait}
+              alt={data.imageAlt}
+              className="profile-picture"
+            />
           </div>
 
           <div className="about-text">
@@ -22,10 +26,24 @@ function AboutSection({ data }) {
         </div>
 
         <div className="skills-section">
-          <h3 className="skills-title">Core Competencies</h3>
+          <h3 className="skills-title">Skills</h3>
           <div className="skills-grid">
             {data.competencies.map((item) => (
               <SkillCard key={item.name} item={item} />
+            ))}
+          </div>
+        </div>
+
+        <div className="resume-facts">
+          <div className="fact-block">
+            <h3>Education</h3>
+            {data.education.map((item) => (
+              <article key={item.degree} className="fact-card">
+                <strong>{item.degree}</strong>
+                <p>{item.school}</p>
+                <span>{item.years}</span>
+                <small>{item.detail}</small>
+              </article>
             ))}
           </div>
         </div>
