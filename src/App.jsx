@@ -25,7 +25,7 @@ function App() {
         <PortfolioSection projects={portfolioProjects} />
         <ContactSection data={contact} />
       </main>
-      <Footer />
+      <Footer message={contact.closing} />
     </>
   );
 }
