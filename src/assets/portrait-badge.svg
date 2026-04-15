@@ -1,0 +1,14 @@
+<svg width="720" height="860" viewBox="0 0 720 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="860" rx="44" fill="#0F2E2A"/>
+  <circle cx="182" cy="174" r="120" fill="#D97706" fill-opacity="0.9"/>
+  <circle cx="572" cy="244" r="146" fill="#0F766E" fill-opacity="0.95"/>
+  <circle cx="540" cy="700" r="160" fill="#EADBC8" fill-opacity="0.22"/>
+  <path d="M116 576C116 463.334 207.334 372 320 372H398C510.666 372 602 463.334 602 576V764H116V576Z" fill="#F5E7D3"/>
+  <circle cx="360" cy="246" r="124" fill="#F2D2B6"/>
+  <circle cx="314" cy="224" r="14" fill="#1F2937"/>
+  <circle cx="406" cy="224" r="14" fill="#1F2937"/>
+  <path d="M311 300C327.31 320.135 347.618 330.203 372 330.203C396.382 330.203 416.69 320.135 433 300" stroke="#1F2937" stroke-width="14" stroke-linecap="round"/>
+  <path d="M282 196C292.604 153.318 322.495 132 360 132C397.505 132 427.396 153.318 438 196" stroke="#4B2E22" stroke-width="32" stroke-linecap="round"/>
+  <path d="M240 748H480" stroke="#0F766E" stroke-width="22" stroke-linecap="round"/>
+  <text x="360" y="820" text-anchor="middle" fill="#F8FAFC" font-size="54" font-family="Arial, sans-serif" font-weight="700">GOHAR ZAFAR</text>
+</svg>
