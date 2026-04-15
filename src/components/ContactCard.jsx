@@ -1,3 +1,5 @@
+import { scrollToSection } from "../utils/scrollToSection";
+
 function ContactCard({ item }) {
   const external = item.href.startsWith("http");
 
@@ -7,6 +9,11 @@ function ContactCard({ item }) {
       href={item.href}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
+      onClick={(event) => {
+        if (!external && scrollToSection(item.href)) {
+          event.preventDefault();
+        }
+      }}
     >
       <i className={item.iconClass} aria-hidden="true" />
       <div>

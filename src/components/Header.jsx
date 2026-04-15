@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { scrollToSection } from "../utils/scrollToSection";
 
 function Header({ links }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,14 +31,22 @@ function Header({ links }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const handleNavigate = () => {
+  const handleNavigate = (event, href) => {
     setIsOpen(false);
+
+    if (scrollToSection(href)) {
+      event.preventDefault();
+    }
   };
 
   return (
     <nav className={`navbar${isScrolled ? " scrolled" : ""}`} id="navbar">
       <div className="nav-container">
-        <a href="#home" className="logo" onClick={handleNavigate}>
+        <a
+          href="#home"
+          className="logo"
+          onClick={(event) => handleNavigate(event, "#home")}
+        >
           Umer Nawaz
         </a>
 
@@ -47,7 +56,7 @@ function Header({ links }) {
               <a
                 href={link.href}
                 className={`nav-link${activeHref === link.href ? " active" : ""}`}
-                onClick={handleNavigate}
+                onClick={(event) => handleNavigate(event, link.href)}
               >
                 {link.label}
               </a>

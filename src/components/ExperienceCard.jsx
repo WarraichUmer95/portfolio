@@ -5,7 +5,20 @@ function ExperienceCard({ item }) {
       <div className="timeline-content">
         <span className="timeline-date">{item.years}</span>
         <h3 className="timeline-title">{item.role}</h3>
-        <p className="timeline-company">{item.company}</p>
+        <p className="timeline-company">
+          {item.companyUrl ? (
+            <a
+              href={item.companyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="timeline-link"
+            >
+              {item.company}
+            </a>
+          ) : (
+            item.company
+          )}
+        </p>
         {item.location ? <p className="timeline-company">{item.location}</p> : null}
         <p className="timeline-description">{item.description}</p>
         {item.highlights?.length ? (

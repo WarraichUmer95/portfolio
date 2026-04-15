@@ -40,7 +40,20 @@ function AboutSection({ data }) {
             {data.education.map((item) => (
               <article key={item.degree} className="fact-card">
                 <strong>{item.degree}</strong>
-                <p>{item.school}</p>
+                <p>
+                  {item.schoolUrl ? (
+                    <a
+                      href={item.schoolUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="fact-link"
+                    >
+                      {item.school}
+                    </a>
+                  ) : (
+                    item.school
+                  )}
+                </p>
                 <span>{item.years}</span>
                 <small>{item.detail}</small>
               </article>

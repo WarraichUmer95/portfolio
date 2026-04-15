@@ -1,4 +1,6 @@
-function HeroSection({ data }) {
+import { scrollToSection } from "../utils/scrollToSection";
+
+function TitleSection({ data }) {
   return (
     <section id="home" className="hero">
       <div className="container">
@@ -23,6 +25,11 @@ function HeroSection({ data }) {
                 href={cta.href}
                 className={`btn ${cta.variant}`}
                 download={cta.download}
+                onClick={(event) => {
+                  if (scrollToSection(cta.href)) {
+                    event.preventDefault();
+                  }
+                }}
               >
                 <i className={cta.iconClass} aria-hidden="true" />
                 {cta.label}
@@ -35,4 +42,4 @@ function HeroSection({ data }) {
   );
 }
 
-export default HeroSection;
+export default TitleSection;

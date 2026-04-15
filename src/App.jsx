@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import {
@@ -11,15 +12,22 @@ import {
 import AboutSection from "./screens/AboutSection";
 import ContactSection from "./screens/ContactSection";
 import ExperienceSection from "./screens/ExperienceSection";
-import HeroSection from "./screens/HeroSection";
+import TitleSection from "./screens/TitleSection";
 import PortfolioSection from "./screens/PortfolioSection";
 
 function App() {
+  useEffect(() => {
+    if (window.location.hash) {
+      const cleanUrl = `${window.location.pathname}${window.location.search}`;
+      window.history.replaceState(null, "", cleanUrl);
+    }
+  }, []);
+
   return (
     <>
       <Header links={navigation} />
       <main>
-        <HeroSection data={hero} />
+        <TitleSection data={hero} />
         <AboutSection data={about} />
         <ExperienceSection items={experience} />
         <PortfolioSection projects={portfolioProjects} />

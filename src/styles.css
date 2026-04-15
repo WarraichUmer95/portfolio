@@ -1,17 +1,17 @@
 :root {
-  --primary-color: #38bdf8;
-  --secondary-color: #0ea5e9;
-  --accent-color: #60a5fa;
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
+  --primary-color: #4f8cff;
+  --secondary-color: #315fca;
+  --accent-color: #8db5ff;
+  --text-primary: #eef4ff;
+  --text-secondary: #9aa9c0;
   --text-dark: #1e293b;
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
-  --border-color: #334155;
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --glow: 0 0 20px rgba(56, 189, 248, 0.15);
+  --bg-primary: #0b1220;
+  --bg-secondary: rgba(16, 25, 40, 0.82);
+  --bg-tertiary: rgba(41, 58, 84, 0.9);
+  --border-color: rgba(141, 181, 255, 0.14);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 18px 48px rgba(0, 0, 0, 0.26);
+  --glow: 0 0 24px rgba(79, 140, 255, 0.12);
   --gradient-primary: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
 }
 
@@ -29,7 +29,11 @@ body {
   font-family: "Sora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   line-height: 1.6;
   color: var(--text-secondary);
-  background: var(--bg-primary);
+  background:
+    radial-gradient(circle at top left, rgba(79, 140, 255, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(141, 181, 255, 0.08), transparent 24%),
+    linear-gradient(180deg, #0b1220 0%, #0d1627 52%, #0b1220 100%);
+  background-attachment: fixed;
 }
 
 a {
@@ -58,8 +62,8 @@ textarea {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(15, 23, 42, 0.75);
-  backdrop-filter: blur(10px);
+  background: rgba(11, 18, 32, 0.72);
+  backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border-color);
   z-index: 1000;
   transition: all 0.3s ease;
@@ -83,7 +87,7 @@ textarea {
   font-weight: 700;
   color: var(--primary-color);
   text-decoration: none;
-  text-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+  text-shadow: 0 0 10px rgba(79, 140, 255, 0.18);
 }
 
 .nav-menu {
@@ -139,16 +143,21 @@ textarea {
 }
 
 .hero {
-  background-color: var(--bg-primary);
-  background-image:
-    radial-gradient(circle at 25px 25px, rgba(56, 189, 248, 0.2) 2%, transparent 0%),
-    radial-gradient(circle at 75px 75px, rgba(56, 189, 248, 0.2) 2%, transparent 0%);
-  background-size: 100px 100px;
   color: var(--text-primary);
   padding: 140px 0 100px;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(79, 140, 255, 0.1), transparent 40%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.01), transparent 30%);
+  pointer-events: none;
 }
 
 .hero-content {
@@ -238,7 +247,7 @@ textarea {
 .btn-primary:hover {
   background: var(--secondary-color);
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.2);
+  box-shadow: 0 10px 20px rgba(79, 140, 255, 0.18);
 }
 
 .btn-secondary {
@@ -253,18 +262,10 @@ textarea {
 }
 
 .about,
-.experience {
-  padding: 5rem 0;
-  background: var(--bg-secondary);
-}
-
-.portfolio {
-  padding: 5rem 0;
-}
-
+.experience,
+.portfolio,
 .contact {
   padding: 5rem 0;
-  background: var(--bg-primary);
 }
 
 .section-header {
@@ -304,7 +305,7 @@ textarea {
   width: 100%;
   border-radius: 50%;
   border: 5px solid var(--border-color);
-  box-shadow: 0 0 30px rgba(56, 189, 248, 0.2);
+  box-shadow: 0 0 30px rgba(79, 140, 255, 0.12);
   transition: transform 0.3s ease;
 }
 
@@ -365,6 +366,23 @@ textarea {
 .fact-card span,
 .fact-card small {
   color: var(--text-secondary);
+}
+
+.fact-link,
+.timeline-link {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(79, 140, 255, 0.42);
+  text-underline-offset: 0.18em;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+.fact-link:hover,
+.fact-link:focus-visible,
+.timeline-link:hover,
+.timeline-link:focus-visible {
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-color);
 }
 
 .fact-tags {
@@ -450,7 +468,7 @@ textarea {
 .timeline-item:nth-child(odd) {
   left: 0;
   padding-right: 3rem;
-  text-align: right;
+  text-align: left;
 }
 
 .timeline-item:nth-child(even) {
@@ -525,17 +543,6 @@ textarea {
 
 .timeline-highlights li + li {
   margin-top: 0.55rem;
-}
-
-.timeline-item:nth-child(odd) .timeline-highlights {
-  direction: rtl;
-  padding-left: 0;
-  padding-right: 1.2rem;
-}
-
-.timeline-item:nth-child(odd) .timeline-highlights li {
-  direction: ltr;
-  text-align: right;
 }
 
 .portfolio-grid {
