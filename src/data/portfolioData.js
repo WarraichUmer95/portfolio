@@ -33,7 +33,7 @@ export const hero = {
     },
     {
       label: "Download Resume",
-      href: "/umer-nawaz-resume.pdf",
+      href: `${import.meta.env.BASE_URL}umer-nawaz-resume.pdf`,
       variant: "btn-secondary",
       iconClass: "fas fa-download",
       download: true,
