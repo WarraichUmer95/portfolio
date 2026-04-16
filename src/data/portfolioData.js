@@ -13,10 +13,10 @@ export const hero = {
     "Results-driven mobile application developer with 5+ years of experience building modern iOS and Android products. I focus on React Native, scalable architecture, native integrations, and polished user experiences for real-world business applications.",
   stats: [
     { value: "5+", label: "Years Experience" },
-    { value: "10+", label: "Key Projects" },
+    { value: "12+", label: "Professional Projects" },
     { value: "2", label: "Platforms" },
-    { value: "18+", label: "Core Technologies" },
-    // { value: "2", label: "Product Companies" },
+    { value: "8+", label: "Industry Verticals" },
+    { value: "100%", label: "Client Satisfaction" },
   ],
   ctas: [
     {
@@ -53,6 +53,7 @@ export const about = {
   ],
   competencies: [
     { name: "React Native", iconClass: "fas fa-mobile-screen-button" },
+    { name: "Expo", iconClass: "fas fa-mobile-screen-button" },
     { name: "React JS", iconClass: "fab fa-react" },
     { name: "JavaScript", iconClass: "fas fa-code" },
     { name: "TypeScript", iconClass: "fas fa-file-code" },
@@ -172,6 +173,22 @@ export const portfolioProjects = [
     iconClass: "fas fa-coins",
   },
   {
+    title: "Intellithrive",
+    category: "AI Voice Agent Platform",
+    description:
+      "Cross-platform React Native AI voice agent application with secure authentication, customizable agent creation by category and skill set, and low-latency conversational experiences powered by real-time voice streaming.",
+    tags: [
+      "AI Agent",
+      "Voice Agent",
+      "Speech-to-Text",
+      "Text-to-Speech",
+      "WebSocket",
+      "Conversational AI",
+    ],
+    badge: "AI",
+    accent: "accent-cobalt",
+  },
+  {
     title: "Wellness Checker",
     category: "Wellness & Health Tracking",
     description:
@@ -283,6 +300,21 @@ export const portfolioProjects = [
       "Panorama Generation",
     ],
     iconClass: "fas fa-car-side",
+  },
+  {
+    title: "BTF",
+    category: "Building The Future",
+    description:
+      "Cross-platform React Native field service tracking application for an Italian client, built to manage vendor dispatch workflows, on-site time tracking, job completion reporting, and equipment and material usage records.",
+    tags: [
+      "Field Service",
+      "Dispatch Workflow",
+      "Time Tracking",
+      "Job Reporting",
+      "Role-Based Access",
+    ],
+    badge: "BTF",
+    accent: "accent-emerald",
   },
 ];
 

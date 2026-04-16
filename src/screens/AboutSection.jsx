@@ -1,4 +1,4 @@
-import profilePortrait from "../assets/profile-placeholder.svg";
+import profilePortrait from "../assets/profile-portrait.jpg";
 import SectionHeading from "../components/SectionHeading";
 import SkillCard from "../components/SkillCard";
 
