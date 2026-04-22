@@ -1,14 +1,28 @@
-# Gohar Portfolio React App
+# Umer Nawaz Portfolio - React App
 
-Step 1: Initialize a React JS app with Vite and create a clean `src` structure for `screens`, `components`, `assets`, and `data`.
+A personal portfolio web application built with React and Vite showcasing my professional experience, projects, and skills.
 
-Step 2: Render the full single-page portfolio by splitting the UI into reusable components and feeding them from a shared data file.
+## Features
 
-Step 3: Add a sticky header with section links so the page scrolls between Home, About, Experience, Portfolio, and Contact.
+- Single-page portfolio with smooth scrolling navigation
+- Sticky header with section links (Home, About, Experience, Portfolio, Contact)
+- Reusable components driven by shared data
+- Responsive design
+
+## Project Structure
+
+```
+src/
+├── assets/      # Static assets (images, icons)
+├── components/ # Reusable UI components
+├── data/       # Portfolio data (experience, projects)
+├── screens/    # Page sections
+└── App.jsx     # Main application component
+```
 
 ## Run locally
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn run dev
 ```
