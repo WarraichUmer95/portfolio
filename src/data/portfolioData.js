@@ -33,7 +33,7 @@ export const hero = {
     },
     {
       label: "Download Resume",
-      href: `${import.meta.env.BASE_URL}umer-nawaz.pdf`,
+      href: `${import.meta.env.BASE_URL}Umer_Nawaz_React_Native_Developer.pdf`,
       variant: "btn-secondary",
       iconClass: "fas fa-download",
       download: true,
