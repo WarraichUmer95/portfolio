@@ -56,6 +56,7 @@ export const about = {
     { name: "Expo", iconClass: "fas fa-mobile-screen-button" },
     { name: "React JS", iconClass: "fab fa-react" },
     { name: "JavaScript", iconClass: "fas fa-code" },
+    { name: "Node JS", iconClass: "fab fa-node-js" },
     { name: "TypeScript", iconClass: "fas fa-file-code" },
     { name: "Redux / Redux-Saga", iconClass: "fas fa-diagram-project" },
     { name: "Zustand", iconClass: "fas fa-layer-group" },
