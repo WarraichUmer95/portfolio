@@ -1,7 +1,8 @@
 import ProjectCard from "../components/ProjectCard";
 import SectionHeading from "../components/SectionHeading";
+import { portfolioProjects } from "../data";
 
-function PortfolioSection({ projects }) {
+function PortfolioSection() {
   return (
     <section id="portfolio" className="portfolio">
       <div className="container">
@@ -11,7 +12,7 @@ function PortfolioSection({ projects }) {
         />
 
         <div className="portfolio-grid">
-          {projects.map((project) => (
+          {portfolioProjects.map((project) => (
             <ProjectCard key={project.title} project={project} />
           ))}
         </div>

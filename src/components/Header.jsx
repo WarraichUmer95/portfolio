@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { scrollToSection } from "../utils/scrollToSection";
+import { navigation } from "../data";
 
-function Header({ links }) {
+function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeHref, setActiveHref] = useState("#home");
@@ -51,7 +52,7 @@ function Header({ links }) {
         </a>
 
         <ul className={`nav-menu${isOpen ? " active" : ""}`} id="nav-menu">
-          {links.map((link) => (
+          {navigation.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}

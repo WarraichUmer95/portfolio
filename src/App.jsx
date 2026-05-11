@@ -1,14 +1,6 @@
 import { useEffect } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import {
-  about,
-  contact,
-  experience,
-  hero,
-  navigation,
-  portfolioProjects,
-} from "./data/portfolioData";
 import AboutSection from "./screens/AboutSection";
 import ContactSection from "./screens/ContactSection";
 import ExperienceSection from "./screens/ExperienceSection";
@@ -25,15 +17,15 @@ function App() {
 
   return (
     <>
-      <Header links={navigation} />
+      <Header />
       <main>
-        <TitleSection data={hero} />
-        <AboutSection data={about} />
-        <ExperienceSection items={experience} />
-        <PortfolioSection projects={portfolioProjects} />
-        <ContactSection data={contact} />
+        <TitleSection />
+        <AboutSection />
+        <ExperienceSection />
+        <PortfolioSection />
+        <ContactSection />
       </main>
-      <Footer message={contact.closing} />
+      <Footer />
     </>
   );
 }

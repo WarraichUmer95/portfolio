@@ -1,9 +1,11 @@
-function Footer({ message }) {
+import { contact } from "../data";
+
+function Footer() {
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <h3>{message}</h3>
+          <h3>{contact.closing}</h3>
         </div>
 
         {/* <div className="footer-bottom">

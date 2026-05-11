@@ -1,7 +1,8 @@
 import ExperienceCard from "../components/ExperienceCard";
 import SectionHeading from "../components/SectionHeading";
+import { experience } from "../data";
 
-function ExperienceSection({ items }) {
+function ExperienceSection() {
   return (
     <section id="experience" className="experience">
       <div className="container">
@@ -11,8 +12,11 @@ function ExperienceSection({ items }) {
         />
 
         <div className="timeline">
-          {items.map((item) => (
-            <ExperienceCard key={`${item.years}-${item.role}-${item.company}`} item={item} />
+          {experience.map((item) => (
+            <ExperienceCard
+              key={`${item.years}-${item.role}-${item.company}`}
+              item={item}
+            />
           ))}
         </div>
       </div>
