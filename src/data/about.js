@@ -17,6 +17,7 @@ export const about = {
     { name: "TypeScript", iconClass: "fas fa-file-code" },
     { name: "Redux / Redux-Saga", iconClass: "fas fa-diagram-project" },
     { name: "Zustand", iconClass: "fas fa-layer-group" },
+    { name: "React Query", iconClass: "fas fa-database" },
     { name: "Context API", iconClass: "fas fa-cubes-stacked" },
     { name: "Firebase", iconClass: "fas fa-fire" },
     { name: "Turbo Modules", iconClass: "fas fa-plug-circle-bolt" },

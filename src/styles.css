@@ -679,14 +679,65 @@ textarea {
   padding: 0.5rem 1rem;
   background: var(--bg-tertiary);
   color: var(--text-primary);
+  border: 1px solid transparent;
   text-decoration: none;
   border-radius: 0.5rem;
   font-weight: 500;
   font-size: 0.9rem;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
 
 .store-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+}
+
+.store-btn--apple {
+  background: #000000;
+  color: #ffffff;
+  border-color: #1f1f1f;
+}
+
+.store-btn--apple i {
+  color: #ffffff;
+}
+
+.store-btn--apple:hover {
+  background: #1c1c1e;
+  color: #ffffff;
+}
+
+.store-btn--google-play {
+  background: #34a853;
+  color: #ffffff;
+  border-color: #2b8f46;
+}
+
+.store-btn--google-play i {
+  background: linear-gradient(
+    135deg,
+    #00d7ff 0%,
+    #00a1ff 25%,
+    #00c853 50%,
+    #ffd600 75%,
+    #ff3d00 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.store-btn--google-play:hover {
+  background: #2b8f46;
+  color: #ffffff;
+}
+
+.store-btn i {
+  width: 1rem;
+  text-align: center;
+}
+
+.store-btn:not(.store-btn--apple):not(.store-btn--google-play):hover {
   background: var(--primary-color);
   color: var(--text-dark);
   transform: translateY(-1px);

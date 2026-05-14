@@ -13,6 +13,90 @@ export const portfolioProjects = [
     ],
     badge: "MDB",
     accent: "accent-blue",
+    links: [
+      {
+        label: "Play Store",
+        href: "https://play.google.com/store/apps/details?id=app.mydriverbook.com",
+        iconClass: "fa-brands fa-google-play",
+      },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/us/app/my-driver-book/id6670301563",
+        iconClass: "fa-brands fa-apple",
+      },
+    ],
+  },
+  {
+    title: "Wellness Checker",
+    category: "Wellness & Health Tracking",
+    description:
+      "React Native application for wellness assessments, health check workflows, and backend-powered synchronization for Android and iOS users.",
+    tags: [
+      "Wellness Monitoring",
+      "Questionnaire Flows",
+      "Geo-Fencing",
+      "Push Notifications",
+      "Fall Detection",
+      "Video Calling",
+      "In-App Messaging",
+      "Quick Notes",
+    ],
+    iconClass: "fas fa-heart-pulse",
+    links: [
+      {
+        label: "Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.wellness.checker.tekhqs",
+        iconClass: "fa-brands fa-google-play",
+      },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/us/app/wellness-checker/id6752862416",
+        iconClass: "fa-brands fa-apple",
+      },
+    ],
+  },
+  {
+    title: "Crootive",
+    category: "HRMS & Attendance",
+    description:
+      "HRMS mobile app with attendance, check-in/check-out, break tracking, employee request forms, and role-based manager approval workflows with real-time status updates.",
+    tags: [
+      "HRMS",
+      "Attendance",
+      "Role-Based Access",
+      "Request Forms",
+      "Approval Workflow",
+    ],
+    badge: "HR",
+    accent: "accent-violet",
+    links: [
+      {
+        label: "Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.tekhqs.tekhr",
+        iconClass: "fa-brands fa-google-play",
+      },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/us/app/hrms-hr-made-simple/id6753071678",
+        iconClass: "fa-brands fa-apple",
+      },
+    ],
+  },
+  {
+    title: "Intellithrive",
+    category: "AI Voice Agent Platform",
+    description:
+      "Cross-platform React Native AI voice agent application with secure authentication, customizable agent creation by category and skill set, and low-latency conversational experiences powered by real-time voice streaming.",
+    tags: [
+      "AI Agent",
+      "Voice Agent",
+      "Speech-to-Text",
+      "Text-to-Speech",
+      "WebSocket",
+      "Conversational AI",
+    ],
+    badge: "AI",
+    accent: "accent-cobalt",
   },
   {
     title: "Magic WMS",
@@ -44,54 +128,18 @@ export const portfolioProjects = [
       "Payout Cycles",
     ],
     iconClass: "fas fa-coins",
-  },
-  {
-    title: "Intellithrive",
-    category: "AI Voice Agent Platform",
-    description:
-      "Cross-platform React Native AI voice agent application with secure authentication, customizable agent creation by category and skill set, and low-latency conversational experiences powered by real-time voice streaming.",
-    tags: [
-      "AI Agent",
-      "Voice Agent",
-      "Speech-to-Text",
-      "Text-to-Speech",
-      "WebSocket",
-      "Conversational AI",
+    links: [
+      {
+        label: "Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.tekhqs.komiti",
+        iconClass: "fa-brands fa-google-play",
+      },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/us/app/komiti-club/id6755999728",
+        iconClass: "fa-brands fa-apple",
+      },
     ],
-    badge: "AI",
-    accent: "accent-cobalt",
-  },
-  {
-    title: "Wellness Checker",
-    category: "Wellness & Health Tracking",
-    description:
-      "React Native application for wellness assessments, health check workflows, and backend-powered synchronization for Android and iOS users.",
-    tags: [
-      "Wellness Monitoring",
-      "Questionnaire Flows",
-      "Geo-Fencing",
-      "Push Notifications",
-      "Fall Detection",
-      "Video Calling",
-      "In-App Messaging",
-      "Quick Notes",
-    ],
-    iconClass: "fas fa-heart-pulse",
-  },
-  {
-    title: "Crootive",
-    category: "HRMS & Attendance",
-    description:
-      "HRMS mobile app with attendance, check-in/check-out, break tracking, employee request forms, and role-based manager approval workflows with real-time status updates.",
-    tags: [
-      "HRMS",
-      "Attendance",
-      "Role-Based Access",
-      "Request Forms",
-      "Approval Workflow",
-    ],
-    badge: "HR",
-    accent: "accent-violet",
   },
   {
     title: "Friday POS",
@@ -110,6 +158,18 @@ export const portfolioProjects = [
     ],
     badge: "POS",
     accent: "accent-gold",
+    links: [
+      {
+        label: "Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.fridayapp.pos",
+        iconClass: "fa-brands fa-google-play",
+      },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/pk/app/friday-owners-app/id1481811260",
+        iconClass: "fa-brands fa-apple",
+      },
+    ],
   },
   {
     title: "The Pusic",
@@ -188,5 +248,17 @@ export const portfolioProjects = [
     ],
     badge: "BTF",
     accent: "accent-emerald",
+    links: [
+      {
+        label: "Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.btf.easycloudpro.mobile.manutenzioni",
+        iconClass: "fa-brands fa-google-play",
+      },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/pk/app/easycloudpro/id1586965155",
+        iconClass: "fa-brands fa-apple",
+      },
+    ],
   },
 ];

@@ -32,16 +32,28 @@ function ProjectCard({ project }) {
         {project.links?.length ? (
           <div className="card-links">
             {project.links.map((link) => (
+              (() => {
+                const isApple = /app store/i.test(link.label);
+                const isGooglePlay = /play store/i.test(link.label);
+                const storeClass = isApple
+                  ? "store-btn store-btn--apple"
+                  : isGooglePlay
+                    ? "store-btn store-btn--google-play"
+                    : "store-btn";
+
+                return (
               <a
                 key={`${project.title}-${link.label}`}
                 href={link.href}
-                className="store-btn"
+                className={storeClass}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className={link.iconClass} aria-hidden="true" />
                 {link.label}
               </a>
+                );
+              })()
             ))}
           </div>
         ) : null}
