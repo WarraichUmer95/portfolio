@@ -282,7 +282,7 @@ textarea {
 
 .section-subtitle {
   font-size: 1.1rem;
-  color: var(--text-secondary);
+  color: #b8bec8;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -319,7 +319,7 @@ textarea {
 .about-text {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--text-secondary);
+  color: #c6cbd4;
 }
 
 .about-text h3 {
@@ -445,7 +445,7 @@ textarea {
 
 .timeline {
   position: relative;
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 2rem auto 0;
   padding: 2rem 0;
 }
@@ -464,7 +464,6 @@ textarea {
 .timeline-item {
   position: relative;
   width: 50%;
-  padding: 1rem 1.25rem;
   margin-bottom: 2rem;
 }
 
@@ -556,11 +555,11 @@ textarea {
 }
 
 .portfolio-card {
-  background: var(--bg-secondary);
+  background: linear-gradient(180deg, rgba(27, 31, 39, 0.96) 0%, rgba(21, 24, 31, 0.96) 100%);
   border-radius: 1rem;
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 1px solid var(--border-color);
+  border: 1px solid rgba(245, 158, 11, 0.22);
 }
 
 .portfolio-card:hover {
@@ -571,7 +570,7 @@ textarea {
 
 .card-header {
   padding: 1.5rem;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.14);
 }
 
 .card-title {
@@ -632,12 +631,13 @@ textarea {
 
 .card-category {
   display: inline-block;
-  background: var(--bg-tertiary);
-  color: var(--text-secondary);
+  background: rgba(245, 158, 11, 0.14);
+  color: #f6d28e;
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   font-size: 0.8rem;
   font-weight: 500;
+  border: 1px solid rgba(245, 158, 11, 0.22);
 }
 
 .card-content {
@@ -645,7 +645,7 @@ textarea {
 }
 
 .card-description {
-  color: var(--text-secondary);
+  color: #c3c9d2;
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
@@ -658,12 +658,13 @@ textarea {
 }
 
 .feature-tag {
-  background: var(--accent-color);
-  color: var(--bg-primary);
+  background: rgba(34, 211, 238, 0.18);
+  color: #aeeef7;
+  border: 1px solid rgba(34, 211, 238, 0.35);
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .card-links {
@@ -747,7 +748,7 @@ textarea {
 }
 
 .contact-info p {
-  color: var(--text-secondary);
+  color: #c3c9d2;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -763,9 +764,9 @@ textarea {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: var(--bg-secondary);
+  background: linear-gradient(180deg, rgba(28, 32, 40, 0.94) 0%, rgba(22, 25, 32, 0.94) 100%);
   border-radius: 0.5rem;
-  border: 1px solid var(--border-color);
+  border: 1px solid rgba(245, 158, 11, 0.2);
   text-decoration: none;
   color: var(--text-primary);
   transition: all 0.3s ease;

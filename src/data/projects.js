@@ -30,16 +30,16 @@ export const portfolioProjects = [
     title: "Wellness Checker",
     category: "Wellness & Health Tracking",
     description:
-      "React Native application for wellness assessments, health check workflows, and backend-powered synchronization for Android and iOS users.",
+      "React Native application for wellness assessments, health check workflows, and backend-powered sync for Android and iOS users.",
     tags: [
       "Wellness Monitoring",
+      "Quick Notes",
       "Questionnaire Flows",
       "Geo-Fencing",
       "Push Notifications",
       "Fall Detection",
       "Video Calling",
       "In-App Messaging",
-      "Quick Notes",
     ],
     iconClass: "fas fa-heart-pulse",
     links: [

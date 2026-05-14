@@ -2,7 +2,7 @@ export const hero = {
   title: "Mobile Application Developer",
   subtitle: "React Native Engineer for Cross-Platform Mobile Apps",
   description:
-    "Results-driven mobile application developer with 5+ years of experience building modern iOS and Android products. I focus on React Native, scalable architecture, native integrations, and polished user experiences for real-world business applications.",
+    "I build high-performance mobile products that feel native, scale cleanly, and ship with confidence. With 5+ years in React Native, I turn complex business workflows into elegant iOS and Android experiences through strong architecture, reliable integrations, and product-first engineering.",
   stats: [
     { value: "5+", label: "Years Experience" },
     { value: "12+", label: "Professional Projects" },

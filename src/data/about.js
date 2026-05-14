@@ -4,9 +4,9 @@ export const about = {
   heading: "Hello, I'm Umer Nawaz.",
   imageAlt: "Umer Nawaz",
   paragraphs: [
-    "I am a mobile application developer focused on building fast, scalable, and production-ready cross-platform apps with React Native. My work spans fintech, IoT, warehouse systems, telehealth, HRMS, POS, and subscription-based products.",
-    "I enjoy solving product and engineering problems through clean architecture, thoughtful state management, native module integration, and strong collaboration with design, backend, QA, and product teams.",
-    "Across my roles, I have delivered apps with real-time tracking, push notifications, deep linking, biometric authentication, offline sync, WebRTC, Socket.io, Firebase, and Turbo Modules for Android and iOS.",
+    "I am a React Native engineer focused on delivering mobile products that are not just functional, but dependable at scale. From fintech and telehealth to HRMS, logistics, and POS systems, I build apps designed for real users, real constraints, and real business outcomes.",
+    "My approach blends product thinking with execution discipline: clear architecture, predictable state, maintainable code, and seamless native integrations. I work closely with design, backend, QA, and product teams to keep delivery fast without compromising quality.",
+    "I have shipped cross-platform experiences with real-time tracking, offline-first workflows, deep linking, biometrics, push notifications, WebRTC, Socket.io, Firebase, and Turbo Modules, with a strong emphasis on performance, stability, and long-term maintainability.",
   ],
   competencies: [
     { name: "React Native", iconClass: "fas fa-mobile-screen-button" },

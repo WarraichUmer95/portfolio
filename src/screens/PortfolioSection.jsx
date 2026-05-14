@@ -8,7 +8,7 @@ function PortfolioSection() {
       <div className="container">
         <SectionHeading
           title="My Portfolio"
-          subtitle="A collection of live mobile applications built with Flutter, showcasing diverse functionality and industry expertise"
+          subtitle="A collection of live mobile applications built with React-Native, showcasing diverse functionality and industry expertise"
         />
 
         <div className="portfolio-grid">
