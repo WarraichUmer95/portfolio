@@ -1,5 +1,5 @@
 export const hero = {
-  title: "Mobile Application Developer",
+  title: "Senior Mobile Application Developer",
   subtitle: "React Native Engineer for Cross-Platform Mobile Apps",
   description:
     "I build high-performance mobile products that feel native, scale cleanly, and ship with confidence. With 5+ years in React Native, I turn complex business workflows into elegant iOS and Android experiences through strong architecture, reliable integrations, and product-first engineering.",
@@ -25,7 +25,7 @@ export const hero = {
     },
     {
       label: "Download Resume",
-      href: `${import.meta.env.BASE_URL}Umer_Nawaz_React_Native_Developer.pdf`,
+      href: `${import.meta.env.BASE_URL}Umer_Nawaz_Sr_React_Native_Developer.pdf`,
       variant: "btn-secondary",
       iconClass: "fas fa-download",
       download: true,

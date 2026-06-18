@@ -6,7 +6,7 @@ function TitleSection() {
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content">
-          <h1>{hero.title}</h1>
+          <h1 className="hero-title">{hero.title}</h1>
           <p className="hero-subtitle">{hero.subtitle}</p>
           <p className="hero-description">{hero.description}</p>
 
