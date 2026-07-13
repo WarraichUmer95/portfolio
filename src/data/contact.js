@@ -21,7 +21,7 @@ export const contact = {
     {
       label: "LinkedIn",
       value: "Let's get connected",
-      href: "https://linkedin.com/in/umer-warraich-aab0891b1",
+      href: "https://www.linkedin.com/in/umer-nawaz-aab0891b1/",
       iconClass: "fab fa-linkedin",
     },
     {
