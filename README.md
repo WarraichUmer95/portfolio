@@ -1,4 +1,4 @@
-# Umer Nawaz Portfolio - React App
+# Umer Nawaz Portfolio
 
 A personal portfolio web application built with React and Vite showcasing my professional experience, projects, and skills.
 
@@ -14,10 +14,10 @@ A personal portfolio web application built with React and Vite showcasing my pro
 ```
 src/
 ├── assets/      # Static assets (images, icons)
-├── components/ # Reusable UI components
-├── data/       # Portfolio data (experience, projects)
-├── screens/    # Page sections
-└── App.jsx     # Main application component
+├── components/  # Reusable UI components
+├── data/        # Portfolio data (experience, projects)
+├── screens/     # Page sections
+└── App.jsx      # Main application component
 ```
 
 ## Run locally
