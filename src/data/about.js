@@ -1,12 +1,12 @@
 export const about = {
   title: "About Me",
   subtitle: "A snapshot of my skills, passion, and professional journey",
-  heading: "Hello, I'm Umer Nawaz.",
+  heading: "Hi, I'm Umer Nawaz.",
   imageAlt: "Umer Nawaz",
   paragraphs: [
-    "I am a React Native engineer focused on delivering mobile products that are not just functional, but dependable at scale. From fintech and telehealth to HRMS, logistics, and POS systems, I build apps designed for real users, real constraints, and real business outcomes.",
-    "My approach blends product thinking with execution discipline: clear architecture, predictable state, maintainable code, and seamless native integrations. I work closely with design, backend, QA, and product teams to keep delivery fast without compromising quality.",
-    "I have shipped cross-platform experiences with real-time tracking, offline-first workflows, deep linking, biometrics, push notifications, WebRTC, Socket.io, Firebase, and Turbo Modules, with a strong emphasis on performance, stability, and long-term maintainability.",
+    "I'm a Senior React Native engineer focused on building mobile products that are dependable at scale, not just functional. Across fintech, telehealth, HRMS, logistics, and IoT, I build for real users, real constraints, and real business outcomes, for clients across Pakistan, the Middle East, and Europe.",
+    "My approach pairs product thinking with execution discipline: clean architecture, predictable state, native module bridging done right, and code built to outlast the sprint it shipped in. I work closely with design, backend, QA, and product teams to move fast without cutting corners on quality.",
+    "I've shipped cross-platform apps with real-time hardware integration, offline-first sync, biometric auth, deep linking, push notifications, WebRTC, Socket.io, Firebase, and native Turbo Modules/JSI bridging, with a consistent focus on performance, stability, and long-term maintainability.",
   ],
   competencies: [
     { name: "React Native", iconClass: "fas fa-mobile-screen-button" },
@@ -29,6 +29,8 @@ export const about = {
     { name: "WebRTC", iconClass: "fas fa-video" },
     { name: "In-App Purchases", iconClass: "fas fa-cart-shopping" },
     { name: "Git", iconClass: "fab fa-git-alt" },
+    { name: "Problem Solving", iconClass: "fas fa-lightbulb" },
+    { name: "Debugging", iconClass: "fas fa-bug" },
   ],
   education: [
     {
@@ -37,7 +39,7 @@ export const about = {
       schoolUrl:
         "https://pu.edu.pk/home/faculty/24/Computing---Information-Technology",
       years: "10/2018 - 08/2020",
-      detail: "CGPA: 2.92",
+      detail: "Lahore",
     },
     {
       degree: "B.Sc Computer Science",
