@@ -1,6 +1,6 @@
 export const hero = {
   title: "Senior Mobile Application Developer",
-  subtitle: "React Native Engineer for Cross-Platform Mobile Apps",
+  subtitle: "React Native Developer for Cross-Platform Mobile Apps",
   description:
     "I build high-performance mobile products that feel native, scale cleanly, and ship with confidence. With 5+ years in React Native, I turn complex business workflows into elegant iOS and Android experiences through strong architecture, reliable integrations, and product-first engineering.",
   stats: [
